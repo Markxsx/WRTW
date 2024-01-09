@@ -1,0 +1,187 @@
+body, html{
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    background-color: #124559;
+    font-family: "Antonio";
+}
+
+h1 {
+    color: #124559;
+}
+a {
+    color: black;
+}
+
+
+.header {
+    background-color: white;
+    width: 100%;
+}
+
+#title {
+    color: #124559;
+    font-size: 15ch;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#navbreak {
+    height: 1.5px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: #124559;
+}
+
+.navbar{
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #124559;
+    font-weight: bold;
+    font-size: 6ch;
+    margin: 1ch;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.home-articles{
+    padding-top: 5%;
+    width: 1056px;
+    margin: 0 auto;
+}
+
+.image-container {
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 400px;
+    height: 500px;
+    flex: 0 0 auto;
+}
+
+.image-item img:not(:first-child){
+    border-radius: 5px 5px 0 0;
+    margin-left: 35px;
+}
+
+.image-item:not(:first-child){
+    margin-left: 35px;
+}
+
+.overlay {
+    margin-top: -5px;
+    margin-bottom: 70px;
+    width: 400px;
+    background: white;
+    color: #124559;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+.overlay p{
+    font-size: larger;
+}
+.overlay-content {
+    text-align: center;
+}
+.item-name,
+.item-price {
+    margin: 5px 0;
+}
+.overlayLB {
+    width: 70%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #124559;
+}
+.item-sale {
+    text-decoration: line-through;
+    margin: 5px 0;
+}
+
+.item-price,
+.item-sale {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.padding{
+    margin: 5%;
+}
+
+
+
+/* Slideshow shit */
+.home-banner{
+    height: 240px;
+    width: 1920px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    text-align: center;
+    display: none;
+}
+
+/* Slideshow shit */
+
+.footer-section1 {
+    width: 300px;
+    list-style: none;
+}
+.footer-section2 {
+    list-style: none;
+}
+.footer-section3 {
+    list-style: none;
+}
+
+footer h2,li, a{
+    color: #124559;
+}
+ 
+footer h2{
+    text-decoration: underline;
+}
+.footer-content {
+    font-size: 3ch;
+    justify-content: center;
+    background-color: white;
+    margin-top: 300px;
+    border-top: 1px solid #555;
+    width: 100%;
+    display: flex;
+}
+
+.footer-bottom {
+    border-top: 1px solid #124559;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    color: #124559;
+    font-size: 0.8em;
+}
+
+.footer-section2 li, .footer-section3 li{
+    margin-bottom: inherit;
+}
+footer{
+    padding-top: 100px;
+}
+.footer-section h2 {
+    color: #124559;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
